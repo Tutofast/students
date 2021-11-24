@@ -1,5 +1,6 @@
 package com.arkisoftware.tutofast.students.command.application.validators;
 
+import com.arkisoftware.tutofast.students.application.Notification;
 import com.arkisoftware.tutofast.students.command.application.dtos.request.EditStudentRequest;
 import com.arkisoftware.tutofast.students.command.infra.StudentTiu;
 import com.arkisoftware.tutofast.students.command.infra.StudentTiuRepository;
@@ -9,7 +10,6 @@ import org.axonframework.messaging.unitofwork.UnitOfWork;
 import org.axonframework.modelling.command.AggregateNotFoundException;
 import org.springframework.stereotype.Component;
 import org.axonframework.modelling.command.Repository;
-import org.arkisoftware.tutofast.common.application.Notification;
 
 import java.util.Optional;
 

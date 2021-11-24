@@ -1,5 +1,8 @@
 package com.arkisoftware.tutofast.students.command.application.services;
 
+import com.arkisoftware.tutofast.students.application.Notification;
+import com.arkisoftware.tutofast.students.application.Result;
+import com.arkisoftware.tutofast.students.application.ResultType;
 import com.arkisoftware.tutofast.students.command.application.dtos.response.EditStudentResponse;
 import com.arkisoftware.tutofast.students.command.application.dtos.request.EditStudentRequest;
 import com.arkisoftware.tutofast.students.command.application.validators.EditStudentValidator;
@@ -10,10 +13,6 @@ import com.arkisoftware.tutofast.students.command.application.validators.Registe
 
 import com.arkisoftware.tutofast.students.contracts.commands.RegisterStudent;
 import com.arkisoftware.tutofast.students.contracts.commands.EditStudent;
-
-import org.arkisoftware.tutofast.common.application.Notification;
-import org.arkisoftware.tutofast.common.application.Result;
-import org.arkisoftware.tutofast.common.application.ResultType;
 
 import com.arkisoftware.tutofast.students.command.infra.StudentTiuRepository;
 import org.axonframework.commandhandling.gateway.CommandGateway;

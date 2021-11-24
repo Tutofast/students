@@ -1,10 +1,10 @@
 package com.arkisoftware.tutofast.students.command.application.validators;
 
+import com.arkisoftware.tutofast.students.application.Notification;
 import com.arkisoftware.tutofast.students.command.application.dtos.request.RegisterStudentRequest;
 import com.arkisoftware.tutofast.students.command.infra.StudentTiu;
 import com.arkisoftware.tutofast.students.command.infra.StudentTiuRepository;
 import org.springframework.stereotype.Component;
-import org.arkisoftware.tutofast.common.application.Notification;
 
 import java.util.Optional;
 
